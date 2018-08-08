@@ -1,0 +1,17 @@
+/* main css for hangman game */
+
+*{
+background:black;
+color: red;
+text-shadow: 1px orange;
+text-align: center;
+font-size: 24px;
+width:100%;
+font-family: 'Homemade Apple', cursive;
+}
+h1{
+font-size: 75px;
+font-family: 'Merienda', cursive;
+}
+
+

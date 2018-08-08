@@ -1,0 +1,49 @@
+<!-- html for hangman game inspiration coming from https://codepen.io/jaredtspears/pen/Epemgr?editors=1010 -->
+<DOCTYPE <!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hangman GAME</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+       <!-- jquery in case I need it -->
+       <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>  
+        
+        <!-- bootstrap incase I need it -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+        <!-- googlefonts -->
+        <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Merienda" rel="stylesheet">
+     <!-- moved script to body, for insertion of name, not sure if this will workJared -->
+    </head>
+
+    <body>
+        <header>
+            <h1>Hangman Game For The Weary Word Whisperer!</h1>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+            <div>
+                <!-- directions for the game, currently has reference to script where name will go-->
+                <p id="direction-text"> Welcome
+                        <script src="script.js"></script>, hope your skills are up for the task at hand. As a life depends on it! The playstyle is like that of
+                    years of past, you get 5 missed letters before you sentence the sexless entety to fatal doom.</p>
+           
+                <div class="col-lg-6">
+                    <p id="guessed-letter">You guessed: </p>
+                    <p id="incorrect-prompt"></p>
+                    <p id="correct-prompt"></p>
+            </div>
+        </div>
+        </div>
+        <!-- second column for games interface will have  -->
+    </div>
+        
+    </body>
+
+    </html>
